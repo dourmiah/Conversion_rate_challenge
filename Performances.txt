@@ -1,0 +1,47 @@
+Logistic regression with columns total_pages_visited'
+
+f1-score on train set :  0.6938517686692869
+f1-score on test set :  0.7060240963855423
+
+--------------------------------------------------------------------------------------------------
+
+Logistic regression with columns total_pages_visited', 'new_user'
+
+f1-score on train set :  0.7277598406265028
+f1-score on test set :  0.7293277810826889
+
+--------------------------------------------------------------------------------------------------
+
+Logistic regression with columns total_pages_visited', 'new_user', 'age'
+
+f1-score on train set :  0.7411049648296114
+f1-score on test set :  0.7426210153482882
+
+--------------------------------------------------------------------------------------------------
+
+Logistic regression with columns total_pages_visited', 'new_user', 'age' and age outliers deleted
+
+f1-score on train set :  0.7430091392715865
+f1-score on test set :  0.7376470588235295
+
+--------------------------------------------------------------------------------------------------
+
+Logistic regression with columns total_pages_visited', 'new_user', 'age', 'country'
+
+f1-score on train set :  0.7625715247391451
+f1-score on test set :  0.7574517825832846
+
+**************************************************************************************************
+
+Logistic regression with columns total_pages_visited', 'new_user', 'age', 'country', 'source'
+
+f1-score on train set :  0.7640404040404042
+f1-score on test set :  0.7562828755113967
+
+
+**************************************************************************************************
+
+Decision Tree with columns total_pages_visited', 'new_user', 'age', 'country', 'source'
+
+f1-score on train set :  0.7631631631631631
+f1-score on test set :  0.7592165898617511
